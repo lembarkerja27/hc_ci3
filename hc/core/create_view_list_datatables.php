@@ -103,8 +103,11 @@ $string .= "\n\t
                     oLanguage: {
                         sProcessing: \"loading...\"
                     },
+                    
+                    responsive: true,
                     processing: true,
                     serverSide: true,
+                    scrollX: true,
                     ajax: {\"url\": \"".$c_url."/json\", \"type\": \"POST\"},
                     columns: [
                         {
