@@ -20,7 +20,7 @@ if (isset($_POST['save'])) {
 <!doctype html>
 <html>
     <head>
-        <title>Harviacode Codeigniter CRUD Generator</title>
+        <title>HC CI3</title>
         <link rel="stylesheet" href="bootstrap.min.css"/>
         <style>
             body{

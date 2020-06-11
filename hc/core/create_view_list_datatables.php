@@ -35,7 +35,7 @@ $string = "<!doctype html>
                 <h2 style=\"margin-top:0px\">".ucfirst($table_name)." List</h2>
             </div>
             <div class=\"col-md-4 text-center\">
-                <div style=\"margin-top: 4px\"  id=\"message\">
+                <div class=\"alert alert-success\" role=\"alert\" style=\"margin-top: 4px\"  id=\"message\">
                     <?php echo \$this->session->userdata('message') <> '' ? \$this->session->userdata('message') : ''; ?>
                 </div>
             </div>
