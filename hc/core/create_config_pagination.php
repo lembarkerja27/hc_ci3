@@ -4,7 +4,7 @@ $string = "<?php  if ( ! defined('BASEPATH')) exit('No direct script access allo
 
 /* 
  * Pagination Config Bootstrap 3 CSS Style
- * harviacode.com
+ * 
  */
 
 \$config['query_string_segment'] = 'start';
